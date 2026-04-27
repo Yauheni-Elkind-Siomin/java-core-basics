@@ -10,7 +10,11 @@ public class EvenOrOddNumber {
         checkNumber(number);
     }
 
-    private static void checkNumber(int number) {
+    /**
+     * метод для проверки чвляется ли чсило четным
+     * @param number - вводимое число
+     */
+    public static void checkNumber(int number) {
         if (number % 2 == 0) {
             System.out.println(number + " is an even number.");
         } else {
