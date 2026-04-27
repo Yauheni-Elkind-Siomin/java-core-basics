@@ -2,6 +2,12 @@ package variables_dataTypes_1;
 
 import java.util.Scanner;
 
+/*
+Чётное / нечётное
+Ввести число → вывести:
+        “Чётное” или “Нечётное”
+*/
+
 public class EvenOrOddNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
