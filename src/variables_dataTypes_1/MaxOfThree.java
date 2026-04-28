@@ -19,6 +19,14 @@ public class MaxOfThree {
 
     }
 
+    /**
+     * Метод нахолждения максимального числа
+     * @param a - первое вводимое пользователем число
+     * @param b - второе вводимое пользователем число
+     * @param c - третье вводимое пользователем число
+     * @return - возврщает макс число
+     */
+
     public static double findMax(double a, double b, double c) {
         double maxNumber = a;
         if (b > maxNumber) {
